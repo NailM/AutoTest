@@ -71,8 +71,7 @@ public class FirstTest {
 
     @AfterClass
     public static void tearDown() {
-
-
+        driver.quit();
     }
 
 }
